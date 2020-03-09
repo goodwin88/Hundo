@@ -25,31 +25,27 @@ body, tw-story
   font-size: 24px;
   color: grey;
   background-color: white;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="875,100" size="100,100">&lt;img src=https://media-cdn.tripadvisor.com/media/photo-s/18/f5/d5/ee/goblins-mead.jpg width=&quot;500&quot; height=&quot;300&quot; alt=&quot;Error Text&quot;&gt;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Hundo/Start" tags="" position="875,100" size="100,100">&lt;img src=&quot;https://goodwin88.github.io/Hundo/assets/images/splash.jpg&quot; width=&quot;690&quot; height=&quot;600&quot; alt=&quot;Splash picture of Hundo running.&quot;&gt;
 
-You are in a //10 foot by 10// foot room. There is a [[**locked chest**-&gt;chest]] and a [[goblin]] with a knife.
+HUNDO
 
-Your **sanity** is: $sanity
-
-&lt;img src=https://media.tenor.com/images/a52b70eb77de9c0986e8db877ede0f0e/tenor.gif width=&quot;500&quot; height=&quot;300&quot; alt=&quot;Error Text&quot;&gt;
-
-Hundo
-
-[[Scenario 1: County Road 13-&gt;Contents]]</tw-passagedata><tw-passagedata pid="2" name="Door" tags="" position="550,398" size="100,100">You find a door and pass through.  Now you are in a narrow passage way.  It is cramped with camping items and bundles of dried food.  There is even an [[empty wheelbarrow]].
+[[Intro-&gt;Intro]]
+[[Table of Contents-&gt;Contents]] 
+[[Credits-&gt;Credits]]</tw-passagedata><tw-passagedata pid="2" name="Door" tags="" position="550,398" size="100,100">You find a door and pass through.  Now you are in a narrow passage way.  It is cramped with camping items and bundles of dried food.  There is even an [[empty wheelbarrow]].
 
 &lt;audio src=&quot;doorsqueak.wav&quot; type=&quot;audio/wav&quot; autoplay&gt;&lt;/audio&gt;
 
-Return to the [[First room-&gt;Start]]</tw-passagedata><tw-passagedata pid="3" name="chest" tags="" position="425,400" size="100,100">A heavy oak chest that looks scarred but well-built.  You will need help moving it and certainly a key to get in.</tw-passagedata><tw-passagedata pid="4" name="goblin" tags="" position="300,400" size="100,100">A stumpy goblin with a wicked smile. Watch your ankles!</tw-passagedata><tw-passagedata pid="5" name="empty wheelbarrow" tags="" position="550,600" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="6" name="Skylight" tags="" position="175,400" size="100,100">Double-click this passage to edit it.
+Return to the [[First room-&gt;Hundo/Start]]</tw-passagedata><tw-passagedata pid="3" name="chest" tags="" position="425,400" size="100,100">A heavy oak chest that looks scarred but well-built.  You will need help moving it and certainly a key to get in.</tw-passagedata><tw-passagedata pid="4" name="goblin" tags="" position="300,400" size="100,100">A stumpy goblin with a wicked smile. Watch your ankles!</tw-passagedata><tw-passagedata pid="5" name="empty wheelbarrow" tags="" position="550,600" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="6" name="Skylight" tags="" position="175,400" size="100,100">Double-click this passage to edit it.
 
 [[Open first door-&gt;Bedroom1]]
 [[Open second door-&gt;Bedroom2]]</tw-passagedata><tw-passagedata pid="7" name="Bathroom" tags="" position="250,250" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="8" name="Foyer" tags="enemy" position="475,800" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="9" name="Bedroom1" tags="enemy" position="175,600" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="10" name="Bedroom2" tags="enemy" position="300,600" size="100,100">here is the second bathroom
 
-(if: $sanity &gt;95)[[You good and sane-&gt;Pillow]]</tw-passagedata><tw-passagedata pid="11" name="Bedroom3" tags="" position="700,1000" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="12" name="Startup" tags="startup" position="500,100" size="100,100">(set: $chances to 5)
-(set: $sanity to 100)</tw-passagedata><tw-passagedata pid="13" name="Pillow" tags="" position="300,750" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="14" name="Last Sanity" tags="" position="300,975" size="100,100">(set: $sanity to $sanity - 1)
+(if: $sanity &gt;95)[[You good and sane-&gt;Pillow]]</tw-passagedata><tw-passagedata pid="11" name="Startup" tags="startup" position="500,100" size="100,100">(set: $chances to 5)
+(set: $sanity to 100)</tw-passagedata><tw-passagedata pid="12" name="Pillow" tags="" position="300,750" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="13" name="Last Sanity" tags="" position="300,975" size="100,100">(set: $sanity to $sanity - 1)
 
 You &lt;u&gt;go craay&lt;/u&gt;
 
-(link-goto:&quot; Return&quot;, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="15" name="County Road 13/Deadman&#39;s Bend" tags="" position="1775,400" size="100,100">At the base of Mount X the road bends to curve along Lake X, now frozen solid.
+(link-goto:&quot; Return&quot;, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="14" name="County Road 13/Deadman&#39;s Bend" tags="" position="1775,400" size="100,100">At the base of Mount X the road bends to curve along Lake X, now frozen solid.
 
 This turn in the road looks to be the scene of a terrible car accident, though long ago as both wrecks are partially covered in snow.  Skid marks are still visible, leading to two ruined vehicles: an abandoned minivan and a ransacked military vehicle.  
 
@@ -64,9 +60,9 @@ Local:
 Directional:
 [[East: County Road 13/Lakeside Scenic Passage-&gt;County Road 13/Lakeside]]
 [[West: County Road 13/Curving Incline Passage-&gt;County Road 13/Incline]]
-[[South: Lake X/Frozen Shore-&gt;Lake X/Frozen Shore]]</tw-passagedata><tw-passagedata pid="16" name="Suburbia/The White Lily Mall" tags="" position="2575,1200" size="100,100">[[North: Clogged River-&gt;Clogged River]]
+[[South: Lake X/Frozen Shore-&gt;Lake X/Frozen Shore]]</tw-passagedata><tw-passagedata pid="15" name="Suburbia/The White Lily Mall" tags="" position="2575,1200" size="100,100">[[North: Clogged River-&gt;Clogged River]]
 [[West: Suburbia/Abandoned Main Street-&gt;Suburbia/Backyard]][[South: Suburbia/Abandoned Town Center-&gt;Town Center]]
-</tw-passagedata><tw-passagedata pid="17" name="Contents" tags="" position="1475,875" size="100,100">[[Chapter 1: The Mission-&gt;Highway 95 Interchange]]
+</tw-passagedata><tw-passagedata pid="16" name="Contents" tags="" position="1475,875" size="100,100">[[Chapter 1: The Mission-&gt;Highway 95 Interchange]]
 [[Chapter 2: The Kids of Deadman&#39;s Bend-&gt;County Road 13/Deadman&#39;s Bend]]
 [[Chapter 3: Hope beyond the Misty Valley-&gt;County Road 13/Misty Valley]]
 [[Chapter 4: The Ghoul of Arcadian Acres-&gt;Outskirts/Gas&#39;n&#39;Git]]
@@ -74,30 +70,30 @@ Directional:
 [[Chapter 6: The Food Court at The White Lily Mall-&gt;Suburbia/The White Lily Mall]]
 [[Scenario 7: The Constitutionalist-&gt;WTOD/Service Road]]
 [[Scenario 8: The Village-&gt;Scenario 8]]
-[[Scenario 9: Ghost Town-&gt;Cemetery]]</tw-passagedata><tw-passagedata pid="18" name="County Road 13/Lakeside" tags="" position="2175,400" size="100,100">[[West: County Road 13/Deadman&#39;s Bend-&gt;County Road 13/Deadman&#39;s Bend]]
-[[East: County Road 13/Misty Valley-&gt;County Road 13/Misty Valley]]</tw-passagedata><tw-passagedata pid="19" name="fdsfds" tags="" position="525,1000" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="20" name="County Road 13/Incline" tags="" position="1375,400" size="100,100">[[East: County Road 13/Highway 95 Interchange-&gt;Highway 95 Interchange]]
-[[West: County Road 13/Deadman&#39;s Bend-&gt;County Road 13/Deadman&#39;s Bend]]</tw-passagedata><tw-passagedata pid="21" name="Highway 95 Interchange" tags="" position="975,400" size="100,100">[[East: County Road 13/Incline-&gt;County Road 13/Incline]]
-[[South: Ridgemont/Tunnel-&gt;Ridgemont/Tunnel]]</tw-passagedata><tw-passagedata pid="22" name="County Road 13/Misty Valley" tags="" position="2575,400" size="100,100">[[West: County Road 13/Lakeside-&gt;County Road 13/Lakeside]]
-[[South: Clogged River-&gt;Clogged River]]</tw-passagedata><tw-passagedata pid="23" name="Clogged River" tags="" position="2575,800" size="100,100">[[North: County Road 13/Misty Valley-&gt;County Road 13/Misty Valley]]
-[[South: Suburbia/The White Lily Mall-&gt;Suburbia/The White Lily Mall]]</tw-passagedata><tw-passagedata pid="24" name="Town Center" tags="" position="2575,1575" size="100,100">[[North: Suburbia/The White Lily Mall-&gt;Suburbia/The White Lily Mall]]
-[[South: Cemetery-&gt;Cemetery]]</tw-passagedata><tw-passagedata pid="25" name="Outskirts/Gas&#39;n&#39;Git" tags="" position="975,1200" size="100,100">[[North: Ridgemont Road/Tunnel-&gt;Ridgemont/Tunnel]]
+[[Scenario 9: Ghost Town-&gt;Cemetery]]</tw-passagedata><tw-passagedata pid="17" name="County Road 13/Lakeside" tags="" position="2175,400" size="100,100">[[West: County Road 13/Deadman&#39;s Bend-&gt;County Road 13/Deadman&#39;s Bend]]
+[[East: County Road 13/Misty Valley-&gt;County Road 13/Misty Valley]]</tw-passagedata><tw-passagedata pid="18" name="County Road 13/Incline" tags="" position="1375,400" size="100,100">[[East: County Road 13/Highway 95 Interchange-&gt;Highway 95 Interchange]]
+[[West: County Road 13/Deadman&#39;s Bend-&gt;County Road 13/Deadman&#39;s Bend]]</tw-passagedata><tw-passagedata pid="19" name="Highway 95 Interchange" tags="" position="975,400" size="100,100">[[East: County Road 13/Incline-&gt;County Road 13/Incline]]
+[[South: Ridgemont/Tunnel-&gt;Ridgemont/Tunnel]]</tw-passagedata><tw-passagedata pid="20" name="County Road 13/Misty Valley" tags="" position="2575,400" size="100,100">[[West: County Road 13/Lakeside-&gt;County Road 13/Lakeside]]
+[[South: Clogged River-&gt;Clogged River]]</tw-passagedata><tw-passagedata pid="21" name="Clogged River" tags="" position="2575,800" size="100,100">[[North: County Road 13/Misty Valley-&gt;County Road 13/Misty Valley]]
+[[South: Suburbia/The White Lily Mall-&gt;Suburbia/The White Lily Mall]]</tw-passagedata><tw-passagedata pid="22" name="Town Center" tags="" position="2575,1575" size="100,100">[[North: Suburbia/The White Lily Mall-&gt;Suburbia/The White Lily Mall]]
+[[South: Cemetery-&gt;Cemetery]]</tw-passagedata><tw-passagedata pid="23" name="Outskirts/Gas&#39;n&#39;Git" tags="" position="975,1200" size="100,100">[[North: Ridgemont Road/Tunnel-&gt;Ridgemont/Tunnel]]
 [[East: Suburbia/Elm Street-&gt;Suburbia/Elm Street]]
-[[South: Ridgemont Road/Industrial Park-&gt;Outskirts/Ridgemont Industrial Park]]</tw-passagedata><tw-passagedata pid="26" name="Ridgemont/Tunnel" tags="" position="975,800" size="100,100">[[North: County Road 13/Highway 95 Interchange-&gt;Highway 95 Interchange]]
-[[South: Suburbia/Arcadian Acres-&gt;Outskirts/Gas&#39;n&#39;Git]]</tw-passagedata><tw-passagedata pid="27" name="Outskirts/Ridgemont Industrial Park" tags="" position="975,1575" size="100,100">[[North: Suburbia/Arcadian Acres-&gt;Outskirts/Gas&#39;n&#39;Git]]
-[[South: WTOD/Service Road-&gt;WTOD/Service Road]]</tw-passagedata><tw-passagedata pid="28" name="WTOD/Service Road" tags="" position="975,1975" size="100,100">[[North: Outskirts/Ridgemont Industrial Park-&gt;Outskirts/Ridgemont Industrial Park]]
-[[East: Woods-&gt;Woods]]</tw-passagedata><tw-passagedata pid="29" name="Suburbia/Elm Street Cul de Sac" tags="" position="1775,1200" size="100,100">[[North: Lake Nameless/Frozen Shore-&gt;Lake X/Frozen Shore]]
+[[South: Ridgemont Road/Industrial Park-&gt;Outskirts/Ridgemont Industrial Park]]</tw-passagedata><tw-passagedata pid="24" name="Ridgemont/Tunnel" tags="" position="975,800" size="100,100">[[North: County Road 13/Highway 95 Interchange-&gt;Highway 95 Interchange]]
+[[South: Suburbia/Arcadian Acres-&gt;Outskirts/Gas&#39;n&#39;Git]]</tw-passagedata><tw-passagedata pid="25" name="Outskirts/Ridgemont Industrial Park" tags="" position="975,1575" size="100,100">[[North: Suburbia/Arcadian Acres-&gt;Outskirts/Gas&#39;n&#39;Git]]
+[[South: WTOD/Service Road-&gt;WTOD/Service Road]]</tw-passagedata><tw-passagedata pid="26" name="WTOD/Service Road" tags="" position="975,1975" size="100,100">[[North: Outskirts/Ridgemont Industrial Park-&gt;Outskirts/Ridgemont Industrial Park]]
+[[East: Woods-&gt;Woods]]</tw-passagedata><tw-passagedata pid="27" name="Suburbia/Elm Street Cul de Sac" tags="" position="1775,1200" size="100,100">[[North: Lake Nameless/Frozen Shore-&gt;Lake X/Frozen Shore]]
 [[West: Suburbia/Elm Street-&gt;Suburbia/Elm Street]]
 [[East: Suburbia/Abandoned Main Street-&gt;Suburbia/Backyard]]
-[[South: Town Park-&gt;Town Park]]</tw-passagedata><tw-passagedata pid="30" name="Suburbia/Backyard" tags="" position="2175,1200" size="100,100">[[West: Suburbia/Cul de Sac-&gt;Suburbia/Elm Street Cul de Sac]]
-[[East: Suburbia/The White Lily Mall-&gt;Suburbia/The White Lily Mall]]</tw-passagedata><tw-passagedata pid="31" name="Lake X/Frozen Shore" tags="" position="1775,800" size="100,100">[[North: County Road 13/Deadman&#39;s Bend-&gt;County Road 13/Deadman&#39;s Bend]]
-[[South: Suburbia/Elm Street Cul de Sac-&gt;Suburbia/Elm Street Cul de Sac]]</tw-passagedata><tw-passagedata pid="32" name="Skid Marks" tags="" position="1575,0" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="33" name="Abandoned Minivan" tags="" position="1575,125" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="34" name="Military Transport" tags="" position="1575,250" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="35" name="Small Path" tags="" position="1775,0" size="100,100"></tw-passagedata><tw-passagedata pid="36" name="Suburbia/Elm Street" tags="" position="1375,1200" size="100,100">[[West: Suburbia/Arcadian Acres-&gt;Outskirts/Gas&#39;n&#39;Git]]
-[[East: Suburbia/Cul de Sac-&gt;Suburbia/Elm Street Cul de Sac]]</tw-passagedata><tw-passagedata pid="37" name="Town Park" tags="" position="1775,1575" size="100,100">[[North: Suburbia/Elm Street Cul de Sac-&gt;Suburbia/Elm Street Cul de Sac]]
-[[South: Village Center-&gt;Village Center]]</tw-passagedata><tw-passagedata pid="38" name="Village Center" tags="" position="1775,1975" size="100,100">[[North: Town Park-&gt;Town Park]]
+[[South: Town Park-&gt;Town Park]]</tw-passagedata><tw-passagedata pid="28" name="Suburbia/Backyard" tags="" position="2175,1200" size="100,100">[[West: Suburbia/Cul de Sac-&gt;Suburbia/Elm Street Cul de Sac]]
+[[East: Suburbia/The White Lily Mall-&gt;Suburbia/The White Lily Mall]]</tw-passagedata><tw-passagedata pid="29" name="Lake X/Frozen Shore" tags="" position="1775,800" size="100,100">[[North: County Road 13/Deadman&#39;s Bend-&gt;County Road 13/Deadman&#39;s Bend]]
+[[South: Suburbia/Elm Street Cul de Sac-&gt;Suburbia/Elm Street Cul de Sac]]</tw-passagedata><tw-passagedata pid="30" name="Skid Marks" tags="" position="1575,0" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="31" name="Abandoned Minivan" tags="" position="1575,125" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="32" name="Military Transport" tags="" position="1575,250" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="33" name="Small Path" tags="" position="1775,1" size="100,100">&lt;audio src=&quot;/assets/audio/text.wav&quot; type=&quot;audio/wav&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="34" name="Suburbia/Elm Street" tags="" position="1375,1200" size="100,100">[[West: Suburbia/Arcadian Acres-&gt;Outskirts/Gas&#39;n&#39;Git]]
+[[East: Suburbia/Cul de Sac-&gt;Suburbia/Elm Street Cul de Sac]]</tw-passagedata><tw-passagedata pid="35" name="Town Park" tags="" position="1775,1575" size="100,100">[[North: Suburbia/Elm Street Cul de Sac-&gt;Suburbia/Elm Street Cul de Sac]]
+[[South: Village Center-&gt;Village Center]]</tw-passagedata><tw-passagedata pid="36" name="Village Center" tags="" position="1775,1975" size="100,100">[[North: Town Park-&gt;Town Park]]
 [[West: Woods-&gt;Woods]]
-[[East: More Woods-&gt;More Woods]]</tw-passagedata><tw-passagedata pid="39" name="Woods" tags="" position="1375,1975" size="100,100">[[West: WTOD/Service Road-&gt;WTOD/Service Road]]
-[[East: Village Center-&gt;Village Center]]</tw-passagedata><tw-passagedata pid="40" name="More Woods" tags="" position="2175,1975" size="100,100">[[West: Village Center-&gt;Village Center]]
-[[East: Cemetary-&gt;Cemetery]]</tw-passagedata><tw-passagedata pid="41" name="Cemetery" tags="" position="2575,1975" size="100,100">[[North: Town Center-&gt;Town Center]]
-[[West: More Woods-&gt;More Woods]]</tw-passagedata></tw-storydata>
+[[East: More Woods-&gt;More Woods]]</tw-passagedata><tw-passagedata pid="37" name="Woods" tags="" position="1375,1975" size="100,100">[[West: WTOD/Service Road-&gt;WTOD/Service Road]]
+[[East: Village Center-&gt;Village Center]]</tw-passagedata><tw-passagedata pid="38" name="More Woods" tags="" position="2175,1975" size="100,100">[[West: Village Center-&gt;Village Center]]
+[[East: Cemetary-&gt;Cemetery]]</tw-passagedata><tw-passagedata pid="39" name="Cemetery" tags="" position="2575,1975" size="100,100">[[North: Town Center-&gt;Town Center]]
+[[West: More Woods-&gt;More Woods]]</tw-passagedata><tw-passagedata pid="40" name="Intro" tags="" position="720,101" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="41" name="Credits" tags="" position="1018,99" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
